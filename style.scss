@@ -121,8 +121,9 @@ $titleColor:linear-gradient(35deg,#2b2f70,#1c2186,#4d518f);
         margin: 1vmax;
         width: 38vw;
         height: 40vh;
-       background-image: url(./selfie.png);
-       background-size: contain;
+       background-image: url(man-1866572_1280-removebg-preview.png);
+       background-size: cover;
+       
        background-repeat: no-repeat;
        offset-path: path("m 1841.1045,181.15708 c -149.063,41.62466 -20.5923,533.64047 -200.0401,601.5881 -56.6677,13.30675 -49.5267,-84.59256 -14.5992,-153.67118");
        offset-rotate: 0deg;
@@ -144,7 +145,7 @@ $titleColor:linear-gradient(35deg,#2b2f70,#1c2186,#4d518f);
     }
 }
 }
-@media screen and (600px < width <1920px){
+@media screen and ( width <1920px){
     .container{
         position: relative;
         min-height: 100vh;
@@ -256,9 +257,11 @@ $titleColor:linear-gradient(35deg,#2b2f70,#1c2186,#4d518f);
             margin: 0.5vmax;
         width: 35vw;
         height: 55vh;
-       background-image: url(./selfie.png);
-       background-size: contain;
-       background-repeat: no-repeat;
+        background-image: url(man-1866572_1280-removebg-preview.png);
+        background-size: cover;
+        
+        background-repeat: no-repeat;
+      
        offset-path: none;
         }
         & .img-title{
@@ -277,9 +280,6 @@ $titleColor:linear-gradient(35deg,#2b2f70,#1c2186,#4d518f);
         margin: 1vmax;
         width: 38vw;
         height: 40vh;
-       background-image: url(./selfie.png);
-       background-size: contain;
-       background-repeat: no-repeat;
        offset-path: path("m 1841.1045,181.15708 c -149.063,41.62466 -20.5923,533.64047 -200.0401,601.5881 -56.6677,13.30675 -49.5267,-84.59256 -14.5992,-153.67118");
        offset-rotate: 0deg;
         animation: slidedown 4s 1 cubic-bezier(.96,-0.26,.25,.58) forwards;
